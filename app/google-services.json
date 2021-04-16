@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "987542976463",
+    "project_id": "messagecontrol-6990e",
+    "storage_bucket": "messagecontrol-6990e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987542976463:android:eb1c8b30c627fad7b084ba",
+        "android_client_info": {
+          "package_name": "com.example.messagecontrol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987542976463-kjj6t9itojmebd3r57b8dejt5sde3hf8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqchDu_Fsj8HoEf6NMfE19vLU8La3BOh0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "987542976463-kjj6t9itojmebd3r57b8dejt5sde3hf8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

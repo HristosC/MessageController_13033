@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:orientation="vertical"
+    android:id="@+id/layout"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register">
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:textSize="60dp"
+            android:text="Σύνδεση">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@+id/register"
+        android:layout_marginTop="120dp"
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        >
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Δώστε Email:"
+            android:textSize="17dp">
+
+        </TextView>
+        <EditText
+            android:id="@+id/email"
+            android:gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content">
+
+        </EditText>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/linearLayout1">
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Δώστε Κωδικό:"
+            android:textSize="17dp">
+
+        </TextView>
+        <EditText
+            android:id="@+id/password"
+            android:gravity="center"
+            android:layout_width="200dp"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content">
+
+        </EditText>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_below="@+id/linearLayout3">
+        <Button
+            android:id="@+id/loginButton"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Σύνδεση"
+            android:textSize="17dp">
+
+        </Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_below="@+id/linearLayout5">
+        <TextView
+            android:id="@+id/textView"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Δεν έχετε λογαριασμό; Πατήστε εδώ!"
+            android:textSize="17dp">
+
+        </TextView>
+
+    </LinearLayout>
+</RelativeLayout>
